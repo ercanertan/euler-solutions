@@ -9,9 +9,9 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 function getLPP(){
 	$finalNumber;
 
-	for ($i=1; $i < 1000 ; $i++) { 
+	for ($i=100; $i < 1000 ; $i++) { 
 
-		for ($j=1; $j < 1000 ; $j++) { 
+		for ($j=100; $j < 1000 ; $j++) { 
 
 			$numberText = (string)($i * $j);
 			$numberLen  = strlen($numberText);
